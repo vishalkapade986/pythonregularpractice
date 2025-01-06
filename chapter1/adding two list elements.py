@@ -1,6 +1,7 @@
-lst1=[1,2,3]
-lst2=[4,5,6]
-res_lst=[]
+lst1=[5,7,9]
+lst2=[7,9,8]
+
+rst_1=[]
 for i in range(0,len(lst1)):
-    res_lst.append(lst1[i]+lst2[i])
-print(res_lst)
+    rst_1.append(lst1[i]+lst2[i])
+print(rst_1)
